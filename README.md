@@ -45,7 +45,7 @@ If you want to replace some of the images, you need to make sure that the file t
 resolution, bit depth and file size exactly match the original image. This is pretty
 easy due to the constant size of bitmaps.
 
-**NOTE:** You might need to disable writing color space information to match to
+**NOTE:** You might need to disable writing color space information to match the
 original size. In GIMP you can remove it: *File -> Export as... -> Select a location
 -> Export -> Compatibility Options -> Enable "Do not write color space information"*.
 
