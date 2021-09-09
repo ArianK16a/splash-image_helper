@@ -1,1 +1,2 @@
-cat split/00_prefix.img split/01_boot-locked.bmp split/empty.img split/02_bootloader.bmp split/03_system-destroyed.bmp split/04_boot-unlocked.bmp split/05_suffix.img > newsplash.img
+echo "merging splash screen for ${1}"
+cat ${1}/prefix.bin ${1}/boot.bmp ${1}/suffix.bin > ${1}_newsplash.bin
